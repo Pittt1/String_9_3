@@ -5,9 +5,10 @@ var tricUpperCase = dinosaur.toUpperCase();
 
 console.log(tricUpperCase);
 
-var tricForVelo = text.replace('Velociraptor', 'Triceratops');
+var tricForVelo = text.replace('Velociraptor', 'Triceratops'),
+	halfOfSentence = tricForVelo.length/2;
 
-console.log(tricForVelo.length/2);
+console.log(halfOfSentence);
 
 var halfTricForVelo = tricForVelo.slice(0, 72);
 
