@@ -10,6 +10,6 @@ var tricForVelo = text.replace('Velociraptor', 'Triceratops'),
 
 console.log(halfOfSentence);
 
-var halfTricForVelo = tricForVelo.slice(0, 72);
+var halfTricForVelo = tricForVelo.slice(0, halfOfSentence);
 
 console.log(halfTricForVelo);
